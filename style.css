@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background: #000000;
+    color: #ffffff;
+
+ }
+
+ .game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 20px auto;
+    gap: 10px;
+ }
+
+ .game-board img {
+    border: 2px solid #ff0000;
+    width: 100px;
+    height: 100px;
+ }
+
+ .game-board img:hover {
+    cursor: pointer; 
+ }
+ h1 {
+    font-size: 72px;
+}
